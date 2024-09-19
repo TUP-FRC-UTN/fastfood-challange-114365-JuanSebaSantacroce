@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+import { PointOfSaleComponent } from '../point-of-sale/point-of-sale.component';
+import { KitchenComponent } from '../kitchen/kitchen.component';
+import { DeliveryPointComponent } from '../delivery-point/delivery-point.component';
+
+@Component({
+  selector: 'app-restaurant',
+  standalone: true,
+  imports: [PointOfSaleComponent, KitchenComponent, DeliveryPointComponent],
+  templateUrl: './restaurant.component.html',
+  styleUrl: './restaurant.component.css'
+})
+export class RestaurantComponent {
+
+}
